@@ -1,0 +1,27 @@
+target/
+
+# Eclipse Project Files #
+.classpath
+.project
+.settings
+
+# IntelliJ IDEA Project Files #
+.idea
+*.iml
+
+#VS Code
+.vscode
+
+# F2E monitoring
+monitoring.mon
+
+# Stuff
+velocity.log
+
+*.jrnl
+*.log
+*.log.gz
+logs/
+\[Help
+
+dual-control-web/.factorypath
