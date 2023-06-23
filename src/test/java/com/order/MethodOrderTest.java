@@ -16,13 +16,13 @@ public class MethodOrderTest {
     }
 
     @Test
-    @Order(3)
+    @Order(1)
     void test1() {
         assertEquals(2, 1 + 1);
     }
 
     @Test
-    @Order(1)
+    @Order(3)
     void test2() {
         assertEquals(2, 1 + 1);
     }
