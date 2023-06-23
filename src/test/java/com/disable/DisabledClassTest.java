@@ -20,4 +20,13 @@ public class DisabledClassTest {
         assertEquals(4, 2 + 2);
     }
 
+    @Test
+    void test3Plus3() {
+        assertEquals(8, 4 + 4);
+    }
+
+    @Test
+    void test4Plus4() {
+        assertEquals(16, 8 + 8);
+    }
 }

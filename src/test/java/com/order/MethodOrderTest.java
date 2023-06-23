@@ -12,30 +12,33 @@ public class MethodOrderTest {
 
     @Test
     void test0() {
-        assertEquals(2, 1 + 1);
+        checkIfEquals();
     }
 
     @Test
     @Order(1)
     void test1() {
-        assertEquals(2, 1 + 1);
+        checkIfEquals();
     }
 
     @Test
     @Order(3)
     void test2() {
-        assertEquals(2, 1 + 1);
+        checkIfEquals();
     }
 
     @Test
     @Order(2)
     void test3() {
-        assertEquals(2, 1 + 1);
+        checkIfEquals();
     }
 
     @Test
     void test4() {
-        assertEquals(2, 1 + 1);
+        checkIfEquals();
     }
 
+    private static void checkIfEquals() {
+        assertEquals(2, 1 + 1);
+    }
 }
