@@ -11,27 +11,30 @@ public class MethodRandomTest {
 
     @Test
     void testZ() {
-        assertEquals(2, 1 + 1);
+        checkIfEquals();
     }
 
     @Test
     void testA() {
-        assertEquals(2, 1 + 1);
+        checkIfEquals();
     }
 
     @Test
     void testY() {
-        assertEquals(2, 1 + 1);
+        checkIfEquals();
     }
 
     @Test
     void testE() {
-        assertEquals(2, 1 + 1);
+        checkIfEquals();
     }
 
     @Test
     void testB() {
-        assertEquals(2, 1 + 1);
+        checkIfEquals();
     }
 
+    private static void checkIfEquals() {
+        assertEquals(2, 1 + 1);
+    }
 }
