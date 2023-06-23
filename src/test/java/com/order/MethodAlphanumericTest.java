@@ -1,7 +1,6 @@
 package com.order;
 
-import static org.hamcrest.CoreMatchers.equalTo;
-import static org.hamcrest.MatcherAssert.assertThat;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Test;
@@ -12,27 +11,30 @@ public class MethodAlphanumericTest {
 
     @Test
     void testZ() {
-        assertThat(2, equalTo(2));
+        checkIfEquals();
     }
 
     @Test
     void testA() {
-        assertThat(2, equalTo(2));
+        checkIfEquals();
     }
 
     @Test
     void testY() {
-        assertThat(2, equalTo(2));
+        checkIfEquals();
     }
 
     @Test
     void testE() {
-        assertThat(2, equalTo(2));
+        checkIfEquals();
     }
 
     @Test
     void testB() {
-        assertThat(2, equalTo(2));
+        checkIfEquals();
     }
 
+    private static void checkIfEquals() {
+        assertEquals(2, 1 + 1);
+    }
 }
