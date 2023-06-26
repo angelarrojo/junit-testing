@@ -25,7 +25,7 @@ public class DisplayNameParamTest {
 
     static Stream<Arguments> argumentProvider() {
         return Stream.of(
-                arguments("abc", 3),
+                arguments("orange", 3),
                 arguments("lemon", 2)
         );
     }
