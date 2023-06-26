@@ -24,4 +24,9 @@ public class DisabledClassTest {
     void test3Plus3() {
         assertEquals(8, 4 + 4);
     }
+
+    @Test
+    void test4Plus4() {
+        assertEquals(16, 8 + 8);
+    }
 }
