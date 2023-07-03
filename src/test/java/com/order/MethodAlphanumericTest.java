@@ -1,40 +1,37 @@
 package com.order;
 
+import static org.hamcrest.CoreMatchers.equalTo;
+import static org.hamcrest.MatcherAssert.assertThat;
+
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestMethodOrder;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @TestMethodOrder(MethodOrderer.Alphanumeric.class)
 public class MethodAlphanumericTest {
 
     @Test
     void testZ() {
-        checkIfEquals();
+        assertThat(2, equalTo(2));
     }
 
     @Test
     void testA() {
-        checkIfEquals();
+        assertThat(2, equalTo(2));
     }
 
     @Test
     void testY() {
-        checkIfEquals();
+        assertThat(2, equalTo(2));
     }
 
     @Test
     void testE() {
-        checkIfEquals();
+        assertThat(2, equalTo(2));
     }
 
     @Test
     void testB() {
-        checkIfEquals();
-    }
-
-    private static void checkIfEquals() {
-        assertEquals(2, 1 + 1);
+        assertThat(2, equalTo(2));
     }
 }
